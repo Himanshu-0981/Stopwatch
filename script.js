@@ -19,10 +19,10 @@ let Stop = ()=>{
 
 let reset = ()=>{
     timer = false;
-    hrString = 0;
-    minString = 0;
-    secString = 0;
-    milString = 0;
+    hr = 0;
+    min = 0;
+    sec = 0;
+    mil = 0;
 
     document.getElementById("hr").innerHTML = "00";
     document.getElementById("min").innerHTML = "00";
